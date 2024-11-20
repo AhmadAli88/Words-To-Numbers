@@ -1,21 +1,14 @@
-
-import './App.css'
-// import EducationalTool from './components/EducationalTool'
-// import FormProcessing from './components/FormProcessing '
-// import SpeechToText from './components/SpeechToText'
-import WordsToNumbersComponent from './components/WordsToNumbersComponent'
+import './App.css';
+import WordsToNumbersExample from './components/Number';
+import Words from './components/Words';
 
 function App() {
- 
-
   return (
-  <div>
-<WordsToNumbersComponent/>
-{/* <FormProcessing/>
-<SpeechToText/>
-<EducationalTool/> */}
-  </div>
-  )
+    <div>
+      <WordsToNumbersExample />
+      <Words/>
+    </div>
+  );
 }
 
-export default App
+export default App;
